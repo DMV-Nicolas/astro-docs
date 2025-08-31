@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Pacman ASCII art
 author: https://www.asciiart.eu/video-games/pacman
 description: "I had some challenges, but asking in the community really helped!"

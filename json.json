@@ -1,7 +1,7 @@
 [
   {
-    "frontmatter": {
-      "layout": "../../layouts/MarkdownPostLayout.astro",
+    "id": "post-1",
+    "data": {
       "title": "My First Blog Post",
       "pubDate": "2025-08-30T00:00:00.000Z",
       "description": "This is the first post of my new Astro blog.",
@@ -12,55 +12,150 @@
       },
       "tags": ["astro", "learning in public"]
     },
-    "file": "/home/nico/codes/courses/nicoenbinario/astro-docs/src/pages/posts/post-1.md",
-    "url": "/posts/post-1"
+    "body": "Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.\n\n## What I've accomplished\n\n1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.\n\n2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.\n\n3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!\n\n## What's next\n\nI will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.\n\n`:)`",
+    "filePath": "src/blog/post-1.md",
+    "digest": "e14315ae510de631",
+    "rendered": {
+      "html": "<p>Welcome to my <em>new blog</em> about learning Astro! Here, I will share my learning journey as I build a new website.</p>\n<h2 id=\"what-ive-accomplished\">What I’ve accomplished</h2>\n<ol>\n<li>\n<p><strong>Installing Astro</strong>: First, I created a new Astro project and set up my online accounts.</p>\n</li>\n<li>\n<p><strong>Making Pages</strong>: I then learned how to make pages by creating new <code>.astro</code> files and placing them in the <code>src/pages/</code> folder.</p>\n</li>\n<li>\n<p><strong>Making Blog Posts</strong>: This is my first blog post! I now have Astro pages and Markdown posts!</p>\n</li>\n</ol>\n<h2 id=\"whats-next\">What’s next</h2>\n<p>I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.</p>\n<p><code>:)</code></p>",
+      "metadata": {
+        "headings": [
+          {
+            "depth": 2,
+            "slug": "what-ive-accomplished",
+            "text": "What I’ve accomplished"
+          },
+          { "depth": 2, "slug": "whats-next", "text": "What’s next" }
+        ],
+        "localImagePaths": [],
+        "remoteImagePaths": [],
+        "frontmatter": {
+          "title": "My First Blog Post",
+          "pubDate": "2025-08-30T00:00:00.000Z",
+          "description": "This is the first post of my new Astro blog.",
+          "author": "DMV-Nicolas",
+          "image": {
+            "url": "https://docs.astro.build/assets/rose.webp",
+            "alt": "The Astro logo on a dark background with a pink glow."
+          },
+          "tags": ["astro", "learning in public"]
+        },
+        "imagePaths": []
+      }
+    },
+    "collection": "blog"
   },
   {
-    "frontmatter": {
-      "layout": "../../layouts/MarkdownPostLayout.astro",
+    "id": "post-2",
+    "data": {
       "title": "Daisy Bell",
-      "author": "Harry Dacre",
+      "pubDate": "2022-07-08T00:00:00.000Z",
       "description": "After learning some Astro...",
+      "author": "Harry Dacre",
       "image": {
         "url": "https://docs.astro.build/assets/arc.webp",
         "alt": "The Astro logo on a dark background with a purple gradient arc."
       },
-      "pubDate": "2022-07-08T00:00:00.000Z",
       "tags": ["astro", "lyrics"]
     },
-    "file": "/home/nico/codes/courses/nicoenbinario/astro-docs/src/pages/posts/post-2.md",
-    "url": "/posts/post-2"
-  },
-  {
-    "frontmatter": {
-      "layout": "../../layouts/MarkdownPostLayout.astro",
-      "title": "Pacman ASCII art",
-      "author": "https://www.asciiart.eu/video-games/pacman",
-      "description": "I had some challenges, but asking in the community really helped!",
-      "image": {
-        "url": "https://docs.astro.build/assets/rays.webp",
-        "alt": "The Astro logo on a dark background with rainbow rays."
-      },
-      "pubDate": "2022-07-15T00:00:00.000Z",
-      "tags": ["astro", "ascii art"]
+    "body": "There is a flower within my heart\nDaisy, daisy\nPlanted one day by a glancing dart\nPlanted by Daisy Bell\n\nWhether she loves me or loves me not\nSometimes it's hard to tell\nYet I am longing to share the lot\nOf beautiful Daisy Bell\n\nDaisy, Daisy\nGive me your answer, do\nI'm half crazy\nAll for the love of you\nIt won't be a stylish marriage\nI can't afford a carriage\nBut you'll look sweet upon the seat\nOf a bicycle built for two\n\nWe will go tandem as man and wife\nDaisy, Daisy\nPe'ling away down the road of life\nI and my Daisy Bell\n\nWhen the night's dark, we can both despise\nP'liceman and lamps as well\nThere are bright lights in the dazzling eyes\nOf beautiful Daisy Bell\n\nDaisy, Daisy\nGive me your answer, do\nI'm half crazy\nAll for the love of you\nIt won't be a stylish marriage\nI can't afford a carriage\nBut you'll look sweet upon the seat\nOf a bicycle built for two",
+    "filePath": "src/blog/post-2.md",
+    "digest": "1b1c501decc0f2b8",
+    "rendered": {
+      "html": "<p>There is a flower within my heart\nDaisy, daisy\nPlanted one day by a glancing dart\nPlanted by Daisy Bell</p>\n<p>Whether she loves me or loves me not\nSometimes it’s hard to tell\nYet I am longing to share the lot\nOf beautiful Daisy Bell</p>\n<p>Daisy, Daisy\nGive me your answer, do\nI’m half crazy\nAll for the love of you\nIt won’t be a stylish marriage\nI can’t afford a carriage\nBut you’ll look sweet upon the seat\nOf a bicycle built for two</p>\n<p>We will go tandem as man and wife\nDaisy, Daisy\nPe’ling away down the road of life\nI and my Daisy Bell</p>\n<p>When the night’s dark, we can both despise\nP’liceman and lamps as well\nThere are bright lights in the dazzling eyes\nOf beautiful Daisy Bell</p>\n<p>Daisy, Daisy\nGive me your answer, do\nI’m half crazy\nAll for the love of you\nIt won’t be a stylish marriage\nI can’t afford a carriage\nBut you’ll look sweet upon the seat\nOf a bicycle built for two</p>",
+      "metadata": {
+        "headings": [],
+        "localImagePaths": [],
+        "remoteImagePaths": [],
+        "frontmatter": {
+          "title": "Daisy Bell",
+          "author": "Harry Dacre",
+          "description": "After learning some Astro...",
+          "image": {
+            "url": "https://docs.astro.build/assets/arc.webp",
+            "alt": "The Astro logo on a dark background with a purple gradient arc."
+          },
+          "pubDate": "2022-07-08T00:00:00.000Z",
+          "tags": ["astro", "lyrics"]
+        },
+        "imagePaths": []
+      }
     },
-    "file": "/home/nico/codes/courses/nicoenbinario/astro-docs/src/pages/posts/post-3.md",
-    "url": "/posts/post-3"
+    "collection": "blog"
   },
   {
-    "frontmatter": {
-      "layout": "../../layouts/MarkdownPostLayout.astro",
+    "id": "post-4",
+    "data": {
       "title": "My Fourth Blog Post",
-      "author": "DMV-Nicolas",
+      "pubDate": "2022-08-08T00:00:00.000Z",
       "description": "This post will show up on its own!",
+      "author": "DMV-Nicolas",
       "image": {
         "url": "https://docs.astro.build/default-og-image.png",
         "alt": "The word astro against an illustration of planets and stars."
       },
-      "pubDate": "2022-08-08T00:00:00.000Z",
       "tags": ["astro", "learning in public", "successes"]
     },
-    "file": "/home/nico/codes/courses/nicoenbinario/astro-docs/src/pages/posts/post-4.md",
-    "url": "/posts/post-4"
+    "body": "This post should show up with my other blog posts, because `import.meta.glob()` is returning a list of all my posts in order to create my list.",
+    "filePath": "src/blog/post-4.md",
+    "digest": "664af09d2f083afe",
+    "rendered": {
+      "html": "<p>This post should show up with my other blog posts, because <code>import.meta.glob()</code> is returning a list of all my posts in order to create my list.</p>",
+      "metadata": {
+        "headings": [],
+        "localImagePaths": [],
+        "remoteImagePaths": [],
+        "frontmatter": {
+          "title": "My Fourth Blog Post",
+          "author": "DMV-Nicolas",
+          "description": "This post will show up on its own!",
+          "image": {
+            "url": "https://docs.astro.build/default-og-image.png",
+            "alt": "The word astro against an illustration of planets and stars."
+          },
+          "pubDate": "2022-08-08T00:00:00.000Z",
+          "tags": ["astro", "learning in public", "successes"]
+        },
+        "imagePaths": []
+      }
+    },
+    "collection": "blog"
+  },
+  {
+    "id": "post-3",
+    "data": {
+      "title": "Pacman ASCII art",
+      "pubDate": "2022-07-15T00:00:00.000Z",
+      "description": "I had some challenges, but asking in the community really helped!",
+      "author": "https://www.asciiart.eu/video-games/pacman",
+      "image": {
+        "url": "https://docs.astro.build/assets/rays.webp",
+        "alt": "The Astro logo on a dark background with rainbow rays."
+      },
+      "tags": ["astro", "ascii art"]
+    },
+    "body": "```\n================================================.\n     .-.   .-.     .--.                         |\n    | OO| | OO|   / _.-' .-.   .-.  .-.   .''.  |\n    |   | |   |   \\  '-. '-'   '-'  '-'   '..'  |\n    '^^^' '^^^'    '--'                         |\n===============.  .-.  .================.  .-.  |\n               | |   | |                |  '-'  |\n               | |   | |                |       |\n               | ':-:' |                |  .-.  |\nl42            |  '-'  |                |  '-'  |\n==============='       '================'       |\n```",
+    "filePath": "src/blog/post-3.md",
+    "digest": "77b6f86e32e1e573",
+    "rendered": {
+      "html": "<pre class=\"astro-code github-dark\" style=\"background-color:#24292e;color:#e1e4e8; overflow-x: auto;\" tabindex=\"0\" data-language=\"plaintext\"><code><span class=\"line\"><span>================================================.</span></span>\n<span class=\"line\"><span>     .-.   .-.     .--.                         |</span></span>\n<span class=\"line\"><span>    | OO| | OO|   / _.-' .-.   .-.  .-.   .''.  |</span></span>\n<span class=\"line\"><span>    |   | |   |   \\  '-. '-'   '-'  '-'   '..'  |</span></span>\n<span class=\"line\"><span>    '^^^' '^^^'    '--'                         |</span></span>\n<span class=\"line\"><span>===============.  .-.  .================.  .-.  |</span></span>\n<span class=\"line\"><span>               | |   | |                |  '-'  |</span></span>\n<span class=\"line\"><span>               | |   | |                |       |</span></span>\n<span class=\"line\"><span>               | ':-:' |                |  .-.  |</span></span>\n<span class=\"line\"><span>l42            |  '-'  |                |  '-'  |</span></span>\n<span class=\"line\"><span>==============='       '================'       |</span></span></code></pre>",
+      "metadata": {
+        "headings": [],
+        "localImagePaths": [],
+        "remoteImagePaths": [],
+        "frontmatter": {
+          "title": "Pacman ASCII art",
+          "author": "https://www.asciiart.eu/video-games/pacman",
+          "description": "I had some challenges, but asking in the community really helped!",
+          "image": {
+            "url": "https://docs.astro.build/assets/rays.webp",
+            "alt": "The Astro logo on a dark background with rainbow rays."
+          },
+          "pubDate": "2022-07-15T00:00:00.000Z",
+          "tags": ["astro", "ascii art"]
+        },
+        "imagePaths": []
+      }
+    },
+    "collection": "blog"
   }
 ]

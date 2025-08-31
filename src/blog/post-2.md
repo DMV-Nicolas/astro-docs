@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Daisy Bell
 author: Harry Dacre
 description: "After learning some Astro..."
