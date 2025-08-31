@@ -1,0 +1,36 @@
+---
+import BlogPost from "../../components/BlogPost.astro";
+import Layout from "../../layouts/Layout.astro";
+import { getPosts, getTags } from "../../services/posts.service";
+import type { Post } from "../../types/posts";
+
+interface Props {
+  filteredPosts: Post[];
+}
+
+export async function getStaticPaths() {
+  const tags = getTags();
+
+  return tags.map((tag) => {
+    const filteredPosts = getPosts({ filters: { tags: [tag] } });
+    return {
+      params: { tag },
+      props: { filteredPosts },
+    };
+  });
+}
+
+const { tag } = Astro.params;
+const { filteredPosts } = Astro.props;
+---
+
+<Layout title={tag}>
+  <p>Posts tagged with {tag}</p>
+  <ul>
+    {
+      filteredPosts.map((post) => (
+        <BlogPost url={post.url} title={post.frontmatter.title} />
+      ))
+    }
+  </ul>
+</Layout>

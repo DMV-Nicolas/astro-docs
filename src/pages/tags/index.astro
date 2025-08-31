@@ -1,0 +1,14 @@
+---
+import BlogTag from "../../components/BlogTag.astro";
+import Layout from "../../layouts/Layout.astro";
+import { getTags } from "../../services/posts.service";
+
+const tags = getTags();
+---
+
+<Layout title="Tags">
+  <h1>Tags</h1>
+  <div>
+    {tags.map((tag) => <BlogTag url={`/tags/${tag}`} title={tag} />)}
+  </div>
+</Layout>
